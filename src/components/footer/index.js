@@ -2,7 +2,7 @@ import React from "react";
 
 function Footer() {
   return (
-    <footer className="bg-gray-800 text-white py-4">
+    <footer className="bg-gray-800 text-white py-4 border-red-500">
       <div className="container mx-auto flex justify-between items-center">
         <div className="flex-shrink-0">
           <p>&copy; 2024 Company Name. All rights reserved.</p>
@@ -16,7 +16,7 @@ function Footer() {
           </a>
           <a href="#" className="text-gray-400 hover:text-white">
             Link 3
-          </a>
+          </a>z
         </div>
       </div>
     </footer>

@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import styles from "./index.css";
 
 function Navbar() {
   const [scrolled, setScrolled] = useState(false);
@@ -20,23 +21,43 @@ function Navbar() {
   }, []);
 
   return (
-    <div
-      className={`bg-${scrolled ? "blue" : "yellow"}-200 h-12 flex items-center justify-between fixed w-full border-b-2 border-gray-900 ${
-        scrolled ? "border-opacity-100" : "border-opacity-50"
-      }`}
-    >
-      <div className="logo bg-purple-200 flex justify-center items-center w-24">
-        Logo
+    <nav className={`nav ${scrolled ? "scrolled" : ""}`}>
+      <div className="w-full mx-auto px-4 ">
+        <div className="flex justify-around items-center ">
+          <div className="flex-shrink-0">
+            <div className="text-white font-bold text-2xl">
+              <img
+                className="w-full h-20 object-cover object-center rounded-full"
+                src={require("./leather_logo.jpg")}
+                alt="Slide 1"
+              />
+            </div>
+          </div>
+          <div className="hidden md:flex md:items-center">
+            <div className="ml-auto space-x-4">
+              <a
+                href="#"
+                className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-xl font-medium"
+              >
+                Ürünler
+              </a>
+              <a
+                href="#"
+                className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-xl font-medium"
+              >
+                Hakkımızda
+              </a>
+              <a
+                href="#"
+                className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-xl font-medium"
+              >
+                Bize Ulaşın
+              </a>
+            </div>
+          </div>
+        </div>
       </div>
-      <div className="siteName bg-green-500 flex justify-center items-center w-40">
-        Deri Ve Sanat
-      </div>
-      <div className="menü flex items-center justify-center items-center">
-        <div className="product bg-gray-200">Ürünler</div>
-        <div className="product bg-gray-200">Ürünler</div>
-        <div className="product bg-gray-200">Ürünler</div>
-      </div>
-    </div>
+    </nav>
   );
 }
 
