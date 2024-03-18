@@ -13,40 +13,40 @@ const Carousel = () => {
     slidesToScroll: 1,
     autoplay: true, 
     autoplaySpeed: 1500,
-    arrows: false, // Ok navigasyonunu kapat
-    fade: true, // Geçiş efektini kullan
+    arrows: false,
+    fade: true,
     className: "full-screen-carousel",
     responsive: [
       {
-        breakpoint: 768, // Ekran boyutu 768px altında
+        breakpoint: 768,
         settings: {
-          arrows: false, // Ok navigasyonunu kapat
+          arrows: false,
         },
       },
     ],
   };
 
   return (
-    <div className="max-w-full rounded-lg overflow-hidden mx-auto ">
+    <div className="carousel-container">
       <Slider {...settings}>
         {/* Carousel içeriğini buraya ekleyin */}
         <div>
           <img
-            className="w-full h-64 object-cover object-center"
+            className="w-full h-full object-cover object-center"
             src={require("./photo1.jpg")}
             alt="Slide 1"
           />
         </div>
         <div>
           <img
-            className="w-full h-64 object-cover object-center"
+            className="w-full h-full object-cover object-center"
             src={require("./photo2.jpg")}
             alt="Slide 2"
           />
         </div>
         <div>
           <img
-            className="w-full h-64 object-cover object-center"
+            className="w-full h-full object-cover object-center"
             src={require("./photo3.jpg")}
             alt="Slide 3"
           />
