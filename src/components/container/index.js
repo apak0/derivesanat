@@ -4,7 +4,7 @@ import Carousel from "./Carousel";
 function Container() {
   return (
     <div>
-      <div className=" bg-orange-200 p-20 ">
+      <div className=" bg-orange-200 py-10 ">
         <Carousel />
       </div>
 

@@ -2,18 +2,20 @@ import React from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import "./index.css";
 
 const Carousel = () => {
   const settings = {
     dots: true,
     infinite: true,
-    speed: 1500,
+    speed: 1300,
     slidesToShow: 1,
     slidesToScroll: 1,
-    autoplay: true,
-    autoplaySpeed: 2000,
+    autoplay: true, 
+    autoplaySpeed: 1500,
     arrows: false, // Ok navigasyonunu kapat
     fade: true, // Geçiş efektini kullan
+    className: "full-screen-carousel",
     responsive: [
       {
         breakpoint: 768, // Ekran boyutu 768px altında
@@ -25,8 +27,7 @@ const Carousel = () => {
   };
 
   return (
-    <div className="max-w-lg rounded-lg overflow-hidden mx-auto ">
-      
+    <div className="max-w-full rounded-lg overflow-hidden mx-auto ">
       <Slider {...settings}>
         {/* Carousel içeriğini buraya ekleyin */}
         <div>
