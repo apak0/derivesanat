@@ -6,12 +6,11 @@ import "./index.css";
 function Container() {
   return (
     <div>
-      <div className="bg-indigo-300 flex justify-center items-center">
+      <div className=" flex justify-center items-center">
         <Carousel />
       </div>
-    {/* Cards */}
+      {/* Cards */}
       <div className="card-list-wrapper">
-       
         <ExpandableCard
           title="Kart Başlığı 1"
           description="Açıklama 1, Açıklama 1, Açıklama 1, Açıklama 1, Açıklama 1, Açıklama 1, Açıklama 1, Açıklama 1, Açıklama 1"

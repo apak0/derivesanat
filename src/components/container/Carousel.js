@@ -30,7 +30,7 @@ const Carousel = () => {
     <div className="carousel-wrapper">
       <Slider {...settings}>
         <div
-          className="carousel-slide slide1"
+          className="carousel-slide slide1 photo-frame"
           style={{ display: "flex", justifyContent: "center" }}
         >
           <img
@@ -39,14 +39,14 @@ const Carousel = () => {
             alt="Slide 1"
           />
         </div>
-        <div className="carousel-slide slide2">
+        <div className="carousel-slide slide2 photo-frame">
           <img
             className="carousel-image"
             src={require("./images/slide-2.jpg")}
             alt="Slide 2"
           />
         </div>
-        <div className="carousel-slide slide3">
+        <div className="carousel-slide slide3 photo-frame">
           <img
             className="carousel-image"
             src={require("./images/slide-3.jpg")}
