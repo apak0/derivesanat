@@ -16,7 +16,7 @@ function Footer() {
           </a>
           <a href="#" className="text-gray-400 hover:text-white">
             Link 3
-          </a>z
+          </a>
         </div>
       </div>
     </footer>

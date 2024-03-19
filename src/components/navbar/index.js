@@ -24,6 +24,8 @@ function Navbar() {
     <nav className={`nav ${scrolled ? "scrolled" : ""}`}>
       <div className="w-full mx-auto px-4 ">
         <div className="flex justify-around items-center ">
+
+          {/* Logo  */}
           <div className="flex-shrink-0">
             <div className="text-white font-bold text-2xl">
               <img
@@ -33,6 +35,8 @@ function Navbar() {
               />
             </div>
           </div>
+
+          {/* Navigations */}
           <div className="hidden md:flex md:items-center">
             <div className="ml-auto space-x-4">
               <a

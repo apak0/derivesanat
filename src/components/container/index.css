@@ -1,18 +1,28 @@
-/* index.css */
+/* Carousel.css */
 
-.full-screen-carousel {
-  position: relative;
+.carousel-wrapper {
   width: 100%;
-  height: calc(
-    100vh - 30px
-  ); /* Ekran yüksekliğinden 100px çıkarılarak Carousel'ın yüksekliği belirleniyor */
+  height: 400px; /* Carousel yüksekliği */
+  overflow: hidden;
 }
 
-.carousel-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: calc(
-    100vh - 100px
-  ); /* Ekran yüksekliğinden 100px çıkarılarak Carousel'ın yüksekliği belirleniyor */
+.carousel-slide {
+  width: 50%;
+  height: 100%;
+}
+
+.slide1 .carousel-image {
+  width: 800px; /* İstediğiniz genişlik */
+  height: 300px; /* İstediğiniz yükseklik */
+  display: block;
+}
+
+.slide2 .carousel-image {
+  width: 800px; /* İstediğiniz genişlik */
+  height: 300px; /* İstediğiniz yükseklik */
+}
+
+.slide3 .carousel-image {
+  width: 800px; /* İstediğiniz genişlik */
+  height: 300px; /* İstediğiniz yükseklik */
 }

@@ -8,46 +8,48 @@ const Carousel = () => {
   const settings = {
     dots: true,
     infinite: true,
-    speed: 1300,
+    speed: 800,
     slidesToShow: 1,
     slidesToScroll: 1,
     autoplay: true, 
-    autoplaySpeed: 1500,
-    arrows: false,
+    autoplaySpeed: 500,
+    arrows: true,
     fade: true,
-    className: "full-screen-carousel",
+    className: "carousel-container",
     responsive: [
       {
         breakpoint: 768,
         settings: {
-          arrows: false,
+          arrows: true,
         },
       },
     ],
   };
 
   return (
-    <div className="carousel-container">
+    <div className="carousel-wrapper">
       <Slider {...settings}>
-        {/* Carousel içeriğini buraya ekleyin */}
-        <div>
+        <div
+          className="carousel-slide slide1"
+          style={{ display: "flex", justifyContent: "center" }}
+        >
           <img
-            className="w-full h-full object-cover object-center"
-            src={require("./photo1.jpg")}
+            className="carousel-image"
+            src={require("./images/slide1.jpg")}
             alt="Slide 1"
           />
         </div>
-        <div>
+        <div className="carousel-slide slide2">
           <img
-            className="w-full h-full object-cover object-center"
-            src={require("./photo2.jpg")}
+            className="carousel-image"
+            src={require("./images/slide2.jpg")}
             alt="Slide 2"
           />
         </div>
-        <div>
+        <div className="carousel-slide slide3">
           <img
-            className="w-full h-full object-cover object-center"
-            src={require("./photo3.jpg")}
+            className="carousel-image"
+            src={require("./images/slide3.jpg")}
             alt="Slide 3"
           />
         </div>
