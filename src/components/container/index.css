@@ -7,31 +7,32 @@
 }
 
 .carousel-slide {
+height: 100vh;
 
 }
 
 .slide1 .carousel-image {
   width: 100%;
-  height: calc(100vh - 100px);
+  height: 100vh;
   margin-left: auto;
   margin-right: auto;
-  object-fit: ;
+  object-fit: cover;
 }
 
 .slide2 .carousel-image {
   width: 100%;
-  height: calc(100vh - 100px);
+  height: 100vh;
   margin-left: auto;
   margin-right: auto;
-  object-fit: ;
+  object-fit: cover;
 }
 
 .slide3 .carousel-image {
   width: 100%;
-  height: calc(100vh - 100px);
+  height: 100vh;
   margin-left: auto;
   margin-right: auto;
-  object-fit: ;
+  object-fit:cover ;
 }
 
 /* Card list */

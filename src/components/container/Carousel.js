@@ -8,11 +8,11 @@ const Carousel = () => {
   const settings = {
     dots: true,
     infinite: true,
-    speed: 500,
+    speed: 1000,
     slidesToShow: 1,
     slidesToScroll: 1,
-    autoplay: true, 
-    autoplaySpeed: 1500,
+    autoplay: true,
+    autoplaySpeed: 700,
     arrows: true,
     fade: true,
     className: "carousel-container",
@@ -35,21 +35,21 @@ const Carousel = () => {
         >
           <img
             className="carousel-image"
-            src={require("./images/slide1.jpg")}
+            src={require("./images/slide-1.jpg")}
             alt="Slide 1"
           />
         </div>
         <div className="carousel-slide slide2">
           <img
             className="carousel-image"
-            src={require("./images/slide2.jpg")}
+            src={require("./images/slide-2.jpg")}
             alt="Slide 2"
           />
         </div>
         <div className="carousel-slide slide3">
           <img
             className="carousel-image"
-            src={require("./images/slide3.jpg")}
+            src={require("./images/slide-3.jpg")}
             alt="Slide 3"
           />
         </div>
