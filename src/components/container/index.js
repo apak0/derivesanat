@@ -1,18 +1,33 @@
 import React from "react";
 import Carousel from "./Carousel";
+import ExpandableCard from "../../components/Card/ExpandableCard "; // Yeni bileşenin import edilmesi
 import "./index.css";
 
 function Container() {
   return (
     <div>
-      <div className=" bg-orange-500 flex justify-center items-center">
+      <div className="bg-indigo-300 flex justify-center items-center">
         <Carousel />
       </div>
-
-      {/* <div className="min-h-screen bg-red-200 flex">
-        <div>Box 1</div>
-        <div>Box 2</div>
-      </div> */}
+    {/* Cards */}
+      <div className="card-list-wrapper">
+       
+        <ExpandableCard
+          title="Kart Başlığı 1"
+          description="Açıklama 1, Açıklama 1, Açıklama 1, Açıklama 1, Açıklama 1, Açıklama 1, Açıklama 1, Açıklama 1, Açıklama 1"
+          imageUrl={require("./images/deri1.jpg")} // imageUrl prop'unu iletimi
+        />
+        <ExpandableCard
+          title="Kart Başlığı 1"
+          description="Açıklama 1, Açıklama 1, Açıklama 1, Açıklama 1, Açıklama 1, Açıklama 1, Açıklama 1, Açıklama 1, Açıklama 1"
+          imageUrl={require("./images/deri1.jpg")} // imageUrl prop'unu iletimi
+        />
+        <ExpandableCard
+          title="Kart Başlığı 1"
+          description="Açıklama 1, Açıklama 1, Açıklama 1, Açıklama 1, Açıklama 1, Açıklama 1, Açıklama 1, Açıklama 1, Açıklama 1"
+          imageUrl={require("./images/deri1.jpg")} // imageUrl prop'unu iletimi
+        />
+      </div>
     </div>
   );
 }

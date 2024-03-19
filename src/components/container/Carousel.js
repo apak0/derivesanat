@@ -8,11 +8,11 @@ const Carousel = () => {
   const settings = {
     dots: true,
     infinite: true,
-    speed: 800,
+    speed: 500,
     slidesToShow: 1,
     slidesToScroll: 1,
     autoplay: true, 
-    autoplaySpeed: 500,
+    autoplaySpeed: 1500,
     arrows: true,
     fade: true,
     className: "carousel-container",
