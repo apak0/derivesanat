@@ -10,7 +10,7 @@ function TopNav() {
       <div className="ml-5">
         <div className="flex justify-between items-center">
           <BsTelephoneInbound />{" "}
-          <a className="ml-2 text-lg font-bold">0535 123 45 67</a>
+          <a className="ml-2 text-lg font-bold" href="tel:0535 123 45 67">0535 123 45 67</a>
         </div>
       </div>
       <div className="flex justify-center items-center">
