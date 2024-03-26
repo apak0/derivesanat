@@ -42,27 +42,27 @@ function Navbar() {
             <div className="ml-auto space-x-4">
               <a
                 href="/"
-                className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-xl font-medium"
+                className="text-gray-300 hover:bg-gray-300 hover:text-white px-3 py-2 rounded-md text-xl font-medium"
               >
                 Ana Sayfa
               </a>
               <a
                 href="/products"
-                className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-xl font-medium"
+                className="text-gray-300 hover:bg-gray-300 hover:text-white px-3 py-2 rounded-md text-xl font-medium"
               >
                 Ürünler
               </a>
               <a
                 href="/aboutus"
-                className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-xl font-medium"
+                className="text-gray-300 hover:bg-gray-300 hover:text-white px-3 py-2 rounded-md text-xl font-medium"
               >
                 Hakkımızda
               </a>
               <a
                 href="contactus"
-                className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-xl font-medium"
+                className="text-gray-300 hover:bg-gray-300 hover:text-white px-3 py-2 rounded-md text-xl font-medium"
               >
-                Bize Ulaşın
+                İletişim
               </a>
             </div>
           </div>

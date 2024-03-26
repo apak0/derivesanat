@@ -2,14 +2,14 @@ import React from "react";
 
 function ContactUs() {
   return (
-    <div className="container mx-auto px-4 py-8 h-screen">
+    <div className="container mx-auto px-10 py-8 h-screen">
       <h1 className="text-4xl font-semibold mb-8 text-center">İletişim</h1>
 
       <div className="flex flex-wrap">
         {/* Sol yarısı: Harita ve Adres Bilgileri */}
-        <div className="w-full md:w-1/2 mb-8 pr-4">
+        <div className="w-full md:w-1/2 mb-8 pr-10">
           <h2 className="text-2xl font-semibold mb-4">Konum</h2>
-          <div className="aspect-w-1 aspect-h-1 mb-4 rounded-md overflow-hidden">
+          <div className="aspect-w-1 aspect-h-1 mb-4 rounded-md overflow-hidden pt-5">
             <iframe
               title="Dükkan Konumu"
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2075.698198912515!2d29.14423371749931!3d40.4429170249425!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14ca5b8c71e6e2d5%3A0xcd4539b5eedb103c!2sSamanyolu%20Sitesi!5e0!3m2!1str!2str!4v1711413105223!5m2!1str!2str"
