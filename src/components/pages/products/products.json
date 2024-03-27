@@ -8,23 +8,51 @@
   },
   {
     "id": 2,
-    "title": "Deri Çanta",
+    "title": "Deri Cüzdan",
     "price": 149.99,
     "image1": "/images/image3.jpg",
     "image2": "/images/image4.jpg"
   },
   {
     "id": 3,
-    "title": "Deri Kemer",
+    "title": "Deri Cüzdan",
     "price": 49.99,
     "image1": "/images/image5.jpg",
     "image2": "/images/image6.jpg"
   },
   {
     "id": 4,
-    "title": "Deri Ayakkabı",
+    "title": "Deri Cüzdan",
     "price": 199.99,
     "image1": "/images/image7.jpg",
     "image2": "/images/image8.jpg"
+  },
+  {
+    "id": 5,
+    "title": "Deri Çanta",
+    "price": 199.99,
+    "image1": "/images/canta-1.jpg",
+    "image2": "/images/canta-2.jpg"
+  },
+  {
+    "id": 6,
+    "title": "Deri Çanta",
+    "price": 199.99,
+    "image1": "/images/canta-3.jpg",
+    "image2": "/images/canta-4.jpg"
+  },
+  {
+    "id": 7,
+    "title": "Deri Çanta",
+    "price": 199.99,
+    "image1": "/images/canta-5.jpg",
+    "image2": "/images/canta-6.jpg"
+  },
+  {
+    "id": 8,
+    "title": "Deri Kartlık",
+    "price": 199.99,
+    "image1": "/images/anahtarlik-1.jpg",
+    "image2": "/images/anahtarlik-2.jpg"
   }
 ]
