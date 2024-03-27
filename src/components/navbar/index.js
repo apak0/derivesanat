@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import styles from "./index.css";
+import { Button } from "@chakra-ui/react";
 
 function Navbar() {
   const [scrolled, setScrolled] = useState(false);

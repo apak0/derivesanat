@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "title": "Deri Cüzdan",
+    "price": 99.99,
+    "image1": "/images/image1.jpg",
+    "image2": "/images/image2.jpg"
+  },
+  {
+    "id": 2,
+    "title": "Deri Çanta",
+    "price": 149.99,
+    "image1": "/images/image3.jpg",
+    "image2": "/images/image4.jpg"
+  },
+  {
+    "id": 3,
+    "title": "Deri Kemer",
+    "price": 49.99,
+    "image1": "/images/image5.jpg",
+    "image2": "/images/image6.jpg"
+  },
+  {
+    "id": 4,
+    "title": "Deri Ayakkabı",
+    "price": 199.99,
+    "image1": "/images/image7.jpg",
+    "image2": "/images/image8.jpg"
+  }
+]
