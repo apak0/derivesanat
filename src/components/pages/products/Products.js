@@ -24,7 +24,7 @@ function Products() {
               key={index}
               className="w-full sm:w-1/2 md:w-1/4 lg:w-1/4 xl:w-1/4 px-4 mb-8"
             >
-              <div className="bg-white rounded-lg shadow-lg overflow-hidden">
+              <div className="bg-white rounded-lg shadow-lg overflow-hidden mt-5 hover:scale-105">
                 <div className="relative">
                   <img
                     className="w-full"
@@ -37,14 +37,14 @@ function Products() {
                     alt={product.title}
                   />
                 </div>
-                <div className="p-4">
-                  <h3 className="text-lg font-semibold mb-2">
+                <div className="p-4 flex  justify-center border-t-4">
+                  <h3 className="text-lg font-bold font-mono mb-2">
                     {product.title}
                   </h3>
-                  <p className="text-gray-700 mb-2">{product.price}</p>
+                  {/* <p className="text-gray-700 mb-2">{product.price}</p>
                   <button className="bg-blue-500 text-white py-2 px-4 rounded hover:bg-blue-600 transition-colors duration-300">
                     Sepete Ekle
-                  </button>
+                  </button> */}
                 </div>
               </div>
             </div>
