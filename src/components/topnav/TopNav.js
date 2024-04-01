@@ -17,21 +17,19 @@ function TopNav() {
       </div>
       <div className="flex justify-center items-center">
         <div className="flex justify-center items-center mr-4 text-red-400">
-          <GrInstagram />
           <a href="www.instagram.com/derivesanat" target="_blank">
-           
+            <GrInstagram />
           </a>
         </div>
         <div className="flex justify-center items-center mr-4 text-blue-600">
-          <FaFacebookSquare />{" "}
           <a href="www.facebook.com/derivesanat" target="_blank">
-            
+            <FaFacebookSquare />{" "}
           </a>
         </div>
         <div className="flex justify-center items-center mr-4 text-red-400">
-          <SiGmail />
-
-          <a href="mailto:derivesanat@gmail.com"></a>
+          <a href="mailto:derivesanat@gmail.com">
+            <SiGmail />
+          </a>
         </div>
       </div>
     </div>
