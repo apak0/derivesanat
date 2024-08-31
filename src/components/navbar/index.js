@@ -22,7 +22,7 @@ function Navbar() {
   }, []);
 
   return (
-    <nav className={`nav ${scrolled ? "scrolled" : ""}`}>
+    <nav className={`nav ${scrolled ? "scrolled" : ""}  `}>
       <div className="w-full mx-auto px-4 ">
         <div className="flex justify-around items-center ">
           {/* Logo  */}
